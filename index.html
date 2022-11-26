@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+ <title>Your opinion</title>
+ <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="Container">
+      <h1 id="title">Very Special Survey Form</h1>
+      <p id="description">Thank you for taking your time to help us improve <b>NOTHING</b>!</p>
+      <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+        <label id="name-label" for="name">Name <input name="name" id="name" type="text" required placeholder="Enter your name *hrhr*"></label>
+        <label id="email-label" for="email">Email <input name="email" id="email" type="email" required placeholder="Enter your email *hrhr*"></lable>
+        <label id="number-label" for="number">Age <input id="number" name="age" type="number" min="1" max="8" placeholder="2"></label>
+        <label for="dropdown">How are you feeling?
+          <select id="dropdown">
+            <option value=""></option>
+            <option value="1">bad</option>
+            <option value="2">wery bad</option>
+          </select>
+        </label>
+        <legend>Are you insane?</legend>
+          <label><input id="insane" class="inline" type="radio" name="insane-notreally" value="insane" checked> Insane</label>
+          <label><input id="notreally" class="inline" type="radio" name="insane-notreally" value="notreally"> Not really (Are you sure?)</label>
+        <legend>Who bothers you?</legend>
+          <label><input type="checkbox" value="Idiots" class="inline"> Idiots</label>
+          <label><input type="checkbox" value="Morons" class="inline"> Morons</label>
+        <label for="insult">Write here some insulting words, please.<textarea id="insult" placeholder="How should I begin?"></textarea></label>
+        </fieldset>
+        <input id="submit" type="submit" value="SuBMiT" />
+      </form>
+      <footer>
+        <h5>@Are there any rights reserved?</h5>
+      </footer>
+  </div>
+</body>

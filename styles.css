@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(#BC96AB, #AFBC96);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #001D61;
+    font-family: cambria;
+    font-size: 17px;
+    margin: 0;
+}
+.Container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+  label, input, select, textarea {
+    display: block;
+    margin: 0.5rem 0
+  }
+  input[type="checkbox"], input[type="radio"] {
+    display: unset
+  }
+  p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.7rem;
+  }
+  h1, h5 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  h1 {
+    margin-bottom:0
+  }
+  h5 {
+    margin-bottom: 2rem;
+  }
+  form {
+      width: 70vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 2rem auto;
+      padding-bottom: 2em;
+      background-color: rgba(255, 0, 0, 0.2);
+      border-radius: 25px;
+  }
+  fieldset {
+      border: none;
+      padding: 1rem 2rem 0;
+  }
+  input, textarea {
+    border-radius: 3px;
+    border: 0;
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+  }
+  .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+  }
+  textarea {
+    height: 5em
+  }
+   input, select, textarea {
+      background-color: rgba(175, 188, 150, 0.7);
+      border: 0px solid rgba(175, 188, 150, 0.7);
+      color: #001D61;
+  }
+  select {
+    min-height: 2em;
+    border-radius: 3px;
+  }
+  input[type="submit"] {
+      display: block;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color: #BC96AB;
+      border: 1px solid #001D61;
+      min-width: 300px;
+      font-family: cambria;
+      font-weight: 600
+    }
